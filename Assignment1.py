@@ -12,4 +12,12 @@ def makeMoveList(size):
             moveList.append((i,j))
     return moveList
 
+#make a list of all the possible moves
+def makeMoveList(size):
+    moveList = []
+    for i in range(size):
+        for j in range(size):
+            moveList.append((i,j))
+    return moveList
+
 
